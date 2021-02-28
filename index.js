@@ -18,6 +18,6 @@ function reverseString(string){
   reverseString(subString);
   }
   else{
-    return string
+    return true
   }
 }
