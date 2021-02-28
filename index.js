@@ -14,7 +14,7 @@ function reverseString(string){
   array = array.reverse()
   console.log(string[0])
   if (string.length >1){
-  let subString = string.subString(1,string.length)  
+  let subString = string.substring(1,string.length)  
   }
   else{
     return string
