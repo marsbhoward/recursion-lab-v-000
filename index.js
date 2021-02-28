@@ -1,4 +1,4 @@
 // Code your solution here!
-Function printString(string){
+function printString(string){
   console.log(string[0]);
 }
