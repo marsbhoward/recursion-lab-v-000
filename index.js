@@ -12,9 +12,9 @@ function printString(string){
 function reverseString(string){
   console.log(string[0])
   if (string.length >1){
-    
+    let subString= string.reverse()
   }
   else{
-    return
+    return string
   }
 }
