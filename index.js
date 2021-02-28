@@ -12,7 +12,7 @@ function printString(string){
 function reverseString(string){
   let array = string.split("")
   array = array.reverse()
-  console.log(string[0])
+  console.log(array[0])
   if (string.length >1){
   let subString = string.substring(1,string.length);
   reverseString(subString);
