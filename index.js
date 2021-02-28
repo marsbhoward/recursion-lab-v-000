@@ -9,3 +9,12 @@ function printString(string){
   }
 }
 
+function reverseString(string){
+  console.log(string[0])
+  if (string.length >1){
+    
+  }
+  else{
+    return
+  }
+}
