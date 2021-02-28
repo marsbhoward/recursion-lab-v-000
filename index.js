@@ -1,7 +1,9 @@
 // Code your solution here!
 function printString(string){
-  printString
-  for (let x = string.length; x>=0; x--){
-    console.log(string[x]);
+  if (string.length > 1) {
+    let subString = string.substring(1, string.length);
+    printString(subString);
+  } else {
+    return true;
   }
 }
