@@ -9,15 +9,10 @@ function printString(string){
   }
 }
 
-function reverseString(string){
-  let array = string.split("")
-  array = array.reverse()
-  console.log(array[0])
-  if (string.length >1){
-    let subString = string.substring(1,string.length);
-    reverseString(subString);
-  }
-  else{
-    return true
+function reverseString(myString) {
+  if (myString.length < 2) {
+    return myString;
+  } else {
+    return reverseString(myString.substring(1)) + myString[0];
   }
 }
