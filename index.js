@@ -9,4 +9,3 @@ function printString(string){
   }
 }
 
-
