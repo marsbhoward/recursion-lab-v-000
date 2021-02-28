@@ -15,6 +15,7 @@ function reverseString(string){
   console.log(string[0])
   if (string.length >1){
   let subString = string.substring(1,string.length);
+  console.log(subString)
   reverseString(subString);
   }
   else{
